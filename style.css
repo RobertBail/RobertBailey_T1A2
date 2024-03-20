@@ -1,0 +1,23 @@
+:root {
+    --black-pearl-50: #eefbfd;
+    --black-pearl-100: #d3f3fa;
+    --black-pearl-200: #ade7f4;
+    --black-pearl-300: #74d4ec;
+    --black-pearl-400: #34b8dc;
+    --black-pearl-500: #199cc1;
+    --black-pearl-600: #177da3;
+    --black-pearl-700: #1a6484;
+    --black-pearl-800: #1e536c;
+    --black-pearl-900: #1d465c;
+    --black-pearl-950: #091e2a;
+    }
+    
+    body {
+        display:flex;
+        flex-direction: column;
+        background-color: var(--black-pearl-100);
+    }
+    
+    header {
+        background-color: var(--black-pearl-900);
+    }
