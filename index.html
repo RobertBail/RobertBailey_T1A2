@@ -3,20 +3,43 @@
  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Robert Bailey's Portfolio</title>
+    <title>Robert Bailey: Web Developer</title>
     <link rel="stylesheet" href="style.css">
+    <!--it became necessary to create separate css files for each page
+    because navbar/header was going wonky on pages other than home for some reason, so had to specify
+    differently for the other pages-->
  </head>   
 <body>
 <header>
-  <h1>Robert Bailey's Portfolio</h1>
   <nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="skills.html">Skills</a>
-    <a href="projects.html">Projects</a>
-    <a href="contact.html">Contact</a>
+    <strong>Robert Bailey: Web Developer</strong>
+    <a href="index.html"><strong>Home</strong></a>
+    <a href="about.html"><strong>About</strong></a>
+    <a href="projects.html"><strong>Projects</strong></a>
+    <a href="blog.html"><strong>Blog</strong></a>
+    <a href="contact.html"><strong>Contact</strong></a>
   </nav>
 </header>
+<main>
+<div class="flex-container">
+
+  <div class="flex-child">
+    <div class="homeText">
+      <h3>Welcome to</h3>
+  <h1>Robert Bailey's</h1>
+  <h2>Web Developer Portfolio</h2>
+    </div>
+  </div>
+  
+  <div class="flex-child">
+    <div class="homeImg">
+      <img src="docs/RBcessnaEdit.png" alt="RBcessna">
+    </div>
+  </div>
+  
+</div>
+</main>
+
 
 </body>
 </html>
