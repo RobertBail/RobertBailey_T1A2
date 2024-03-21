@@ -32,6 +32,7 @@
     header {
         text-align:center;
         border-style: solid;
+        margin-left:5px;
         border-width: 5px;
         border-radius: 20px;
         border-color: var(--black-pearl-900);  

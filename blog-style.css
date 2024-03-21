@@ -51,8 +51,9 @@
 
     h3 {
         font-size:20px;
-        
+        padding-top:10px;
     }
+
 
     nav>strong{
         font-size:20px;
@@ -70,4 +71,12 @@
 
     a:hover{
         background-color: var(--black-pearl-50)
+    }
+
+    .BlogContent{
+        text-align: left;
+        max-width:1000px;
+        padding-top:5px;
+        margin-left: 15px;
+        margin-bottom: 10px;
     }
