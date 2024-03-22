@@ -110,4 +110,10 @@
         color: var(--black-pearl-950);
         background-color: var(--black-pearl-50);
     }
+
+    .homeImg{
+       padding-right: 5px;
+       object-fit: contain;
+       max-width: 100%;
+    }
     /*media query screen needed?*/

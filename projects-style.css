@@ -47,6 +47,7 @@
     h2 {
         font-size:30px;
         color: var(--black-pearl-900);
+        padding-bottom: 3px;
     }
 
     h3 {
@@ -83,6 +84,9 @@
         margin-bottom: 10px;
         background-color: #f3aa0b;
         border-radius: 20px;
+        border-style: solid;
+        border-width: 5px;
+        border-color: var(--black-pearl-900);  
     }
 
     .ProjectsBtn{
@@ -99,6 +103,9 @@
     .projectimg{
         padding-top: 5px;
         padding-bottom:5px;
+        padding-right: 5px;
+        object-fit: contain;
+        max-width: 100%;
     }
 
      /*media query screen needed?/*

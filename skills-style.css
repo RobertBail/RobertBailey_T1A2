@@ -120,37 +120,11 @@
         padding-top: 3px;
         padding-bottom: 3px;
         color: var(--black-pearl-950);
-        background-color: var(--black-pearl-300);
+        background-color: var(--black-pearl-400);
     }
 
-    .Interests{
-     
-        margin-left:20px;
-        text-align: left;
-    
-    }
-
-    .InterestsGallery{
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: repeat(4, 30vh);
-        grid-gap: 1px; 
-        margin-bottom: 20px;
-        margin-top: 20px;
-        background-color: #f3aa0b;
-        border-radius: 20px;
-        
-       
-    }
-
-    .gallery__img {
-        width: 120%;
-        height: 120%;
-        padding-top:5px;
-        padding-left: 10px;
-        padding-right: 10px;
-        padding-bottom: 50px;
+    .codingImg{
+       padding-right: 5px;
        object-fit: contain;
        max-width: 100%;
-       
     }
