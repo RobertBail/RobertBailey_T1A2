@@ -22,7 +22,7 @@
     }
 
     body {
-        display:inline-flex;
+        flex:auto;
         flex-direction: column;
         text-align: center;
         font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -31,8 +31,8 @@
     
     header {
         text-align:center;
-        width:1000px;
         border-style: solid;
+        margin-left:5px;
         border-width: 5px;
         border-radius: 20px;
         border-color: var(--black-pearl-900);  
@@ -51,8 +51,49 @@
 
     h3 {
         font-size:20px;
+      
+    }
+
+    h4{
+        font-size:15px;
+    }
+
+    p{
+        padding-bottom: 3px;
+        text-align: center;
+    }
+
+    main{
+    
+        max-width: 1100px;
+        box-sizing: border-box;  
+    }
+
+    .flex-container {
+        padding-top: 5px;
+        padding-left: 20px;
+        padding-right: 10px;
+        float: left;
+        display: flex;
+        align-items: center;
         
     }
+    
+    .flex-child {
+        flex: 1;
+        border: none;  
+        width:400px;
+        height:450px;
+        margin-bottom: 5px;
+        margin-right:1px;
+    }  
+    
+    .flex-child:first-child {
+        margin-right: 10px;
+        margin-left: 1px;
+        text-align: left;
+        width:600px;
+    } 
 
     nav>strong{
         font-size:20px;
@@ -70,4 +111,38 @@
 
     a:hover{
         background-color: var(--black-pearl-50)
+    }
+
+
+    .Interests{
+     
+        margin-left:20px;
+        text-align: left;
+    
+    }
+
+    .InterestsGallery{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(4, 30vh);
+        grid-gap: 1px; 
+        margin-left: 5px;
+        margin-bottom: 20px;
+        padding-top:15px;
+        padding-bottom: 30px;
+        background-color: #f3aa0b;
+        border-radius: 20px;
+          
+    }
+
+    .gallery__img {
+        width: 110%;
+        height: 110%;
+        padding-top:5px;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-bottom: 20px;
+       object-fit: contain;
+       max-width: 100%;
+       
     }

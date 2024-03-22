@@ -20,9 +20,9 @@
         margin: 0; 
         box-sizing: border-box;     
     }
-
+    /*I attempted to make the whole-screen flex more central but didn't happen properly for this*/
     body {
-        display:inline-flex;
+        flex:content;
         flex-direction: column;
         text-align: center;
         font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -42,10 +42,11 @@
 
     .flex-container {
         padding-top: 5px;
-        padding-left: 50px;
-        padding-right: 100px;
+        padding-left: 5px;
+        padding-right: 5px;
         float: left;
         display: flex;
+        flex:content;
         align-items: center;
     }
     
@@ -70,6 +71,7 @@
     }
 
     h3 {
+        padding-top:15px;
         font-size:20px;
         
     }
@@ -89,4 +91,23 @@
     a:hover{
         background-color: var(--black-pearl-50)
     }
-    /*media query screen/*
+
+
+    .LinkedInBtn{
+        text-decoration: none;
+        font-size: 30px;
+        padding-left: 5px;
+        padding-right: 5px;
+        color: var(--black-pearl-800);
+        background-color: var(--black-pearl-50);
+    }
+
+    .GithubBtn{
+        text-decoration: none;
+        font-size: 30px;
+        padding-left: 5px;
+        padding-right: 5px;
+        color: var(--black-pearl-950);
+        background-color: var(--black-pearl-50);
+    }
+    /*media query screen needed?*/

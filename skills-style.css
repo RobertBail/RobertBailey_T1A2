@@ -22,9 +22,8 @@
     }
 
     body {
-        max-width: fit-content;
-        display:inline-flex;
-        flex-direction: column;
+        flex:auto;
+       
         text-align: center;
         font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         background: linear-gradient(#eefbfd,#74d4ec);
@@ -32,9 +31,8 @@
     
     header {
         text-align:center;
-        width:1000px;
-        margin-left:5px;
         border-style: solid;
+        margin-left:5px;
         border-width: 5px;
         border-radius: 20px;
         border-color: var(--black-pearl-900);  
@@ -53,10 +51,15 @@
 
     h3 {
         font-size:20px;
+      
     }
 
     h4{
         font-size:15px;
+    }
+
+    p{
+        padding-bottom: 3px;
     }
 
     main{
@@ -67,10 +70,11 @@
 
     .flex-container {
         padding-top: 5px;
-        padding-left: 20px;
-        padding-right: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
         float: left;
         display: flex;
+        flex:content;
         align-items: center;
         
     }
@@ -86,7 +90,7 @@
     
     .flex-child:first-child {
         margin-right: 10px;
-        margin-left: 1px;
+        margin-left: 10px;
         text-align: left;
         width:600px;
     } 
@@ -111,11 +115,16 @@
 
     .resumebtn{
         text-decoration: none;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 3px;
+        padding-bottom: 3px;
         color: var(--black-pearl-950);
         background-color: var(--black-pearl-300);
     }
 
     .Interests{
+     
         margin-left:20px;
         text-align: left;
     

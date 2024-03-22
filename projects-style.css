@@ -22,7 +22,7 @@
     }
 
     body {
-        display:inline-flex;
+        flex:auto;
         flex-direction: column;
         text-align: center;
         font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -31,8 +31,8 @@
     
     header {
         text-align:center;
-        width:1000px;
         border-style: solid;
+        margin-left:5px;
         border-width: 5px;
         border-radius: 20px;
         border-color: var(--black-pearl-900);  
@@ -51,7 +51,8 @@
 
     h3 {
         font-size:20px;
-        
+        padding-bottom: 5px;
+        padding-top: 5px;
     }
 
     nav>strong{
@@ -71,3 +72,33 @@
     a:hover{
         background-color: var(--black-pearl-50)
     }
+    
+    .ProjectsContent{
+        text-align: left;
+        max-width:1000px;
+        padding-top:5px;
+        padding-left:15px;
+        padding-bottom: 10px;
+        margin-left: 15px;
+        margin-bottom: 10px;
+        background-color: #f3aa0b;
+        border-radius: 20px;
+    }
+
+    .ProjectsBtn{
+        text-decoration: none;
+        font-size: 20px;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        color: var(--black-pearl-950);
+        background-color: var(--black-pearl-300);
+    }
+
+    .projectimg{
+        padding-top: 5px;
+        padding-bottom:5px;
+    }
+
+     /*media query screen needed?/*
