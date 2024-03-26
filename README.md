@@ -9,7 +9,7 @@ https://github.com/RobertBail/RobertBailey_T1A2
 https://www.figma.com/file/dTQsJhCh9j0KAPUKiQ4A37/RBportfolioWireframe?type=design&node-id=1%3A21&mode=design&t=O8AKt8a8DnprSBK5-1
 
 ## Link to Presentation
-(presentation video link)
+https://youtu.be/w8CE10dEs-E
 
 ## Description
 ### Purpose:
@@ -37,4 +37,4 @@ A portfolio website which provides an overview of my skills, interests, web/codi
 I have intended this portfolio website mainly for prospective employers or other people to network with in IT or coding, but I treated the Interests and Blog sections a bit like a social media profile, since I don't really use Facebook and Instagram etc. anymore, so maybe others outside of IT and coding.
 
 ### Tech stack:
-html, css, uicolors, GitHub Pages
+HTML, CSS, UI Colors, GitHub Pages
